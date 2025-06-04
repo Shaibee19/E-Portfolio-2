@@ -605,3 +605,71 @@ footer {
 .footer__copyright {
     color: white;
 }
+
+/*
+
+    SHAPES
+
+*/
+
+.shape {
+    position: fixed;
+}
+
+.shape--0 {
+    top: 15vh;
+    left: 5vw;
+}
+
+.shape--1 {
+    top: 15vh;
+    left: 50vw;
+}
+
+.shape--2 {
+    top: 15vh;
+    left: 80vw;
+}
+
+.shape--3 {
+    top: 50vh;
+    left: 5vw;
+}
+
+.shape--4 {
+    top: 50vh;
+    left: 50vw;
+}
+
+.shape--5 {
+    top: 50vh;
+    left: 80vw;
+}
+
+.shape--6 {
+    top: 80vh;
+    left: 5vw;
+}
+
+.shape--7 {
+    top: 80vh;
+    left: 50vw;
+}
+
+.shape--8 {
+    top: 80vh;
+    left: 80vw;
+}
+
+/* 
+
+shapes on the 1st row               shapes on the 1st column
+height = 15vh                       width = 5vw
+
+shapes on the 2nd row               shapes on the 2nd column
+height - 50vh                       width = 50vw
+
+shapes on the 3rd row               shapes on the 3rd column
+height - 80vh                       width = 80vw
+
+*/
