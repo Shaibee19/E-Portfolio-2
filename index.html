@@ -24,42 +24,46 @@
         <figure class="logo__img--wrapper">
           <img id="logo__img" src="./assets/logo.svg" alt="" />
         </figure>
-        <ul class="nav__link--list click">
-          <li class="nav__link">About</li>
+        <ul class="nav__link--list">
+          <li class="nav__link">
           <a
             href="#"
             class="nav__link--anchor 
             link__hover-effect 
             link__hover-effect--black"
-          ></a>
-          <li class="nav__link">Projects</li>
+          >About</a>
+          </li>
+          <li class="nav__link">
           <a
             href="#"
             class="nav__link--anchor 
             link__hover-effect 
             link__hover-effect--black"
-          ></a>
-          <li class="nav__link" onclick="toggleModal()">Contact</li>
+          >Projects</a>
+          </li>
+          <li class="nav__link click" onclick="toggleModal()">
           <a
             href="#"
             class="nav__link--anchor 
             link__hover-effect 
             link__hover-effect--black"
-          ></a>
-          <li class="nav__link"><i class="fa-solid fa-circle-half-stroke"></i></li>
+          >Contact</a>
+          </li>
+          <li class="nav__link click" onclick="toggleContrast()">
           <a
             href="#"
             class="nav__link--anchor 
             link__hover-effect 
             link__hover-effect--black"
-          ></a>
+          ><i class="fa-solid fa-circle-half-stroke"></i></a>
+          </li>
         </ul>
       </nav>
       <header class="header">
         <div class="header__content">
             <h1 class="title">Hiya</h1>
             <h1 class="title orange">I'm Shai.</h1>
-            <p class="header__para">I'm a <b class="orange"> Frontend Software Engineer </b> with a strong passion for building web applications with great user experiences.</p>
+            <p class="header__para">I'm a <b class="orange"> Frontend Software Engineer </b> with a strong passion for building web applications with great user experiences.
             <br>Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b></p>
             <div class="social__list">
                 <a href="https://www.linkedin.com/in/shai-gray-woodland-aa285343/" target="_blank" class="social__link click">
